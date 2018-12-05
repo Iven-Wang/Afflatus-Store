@@ -1,0 +1,9 @@
+<!--Pages/about/about.wxml-->
+ <view class="container">
+  <image src="/images/logo.png" class="about-banner"  mode='widthFix'></image>
+  <text style="font-weight:bold; font-size:64rpx;">冇想法买手店</text>
+  <!-- <official-account></official-account> -->
+  <text>不好意思，没有slogan</text>
+  <text>与我联系：ivenwang.com</text>
+</view> 
+<!-- <web-view src="https://mp.weixin.qq.com/s/BW9YH0QmOUX3ld0rBLAR3A"></web-view> -->

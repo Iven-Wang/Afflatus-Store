@@ -1,0 +1,15 @@
+<!--Pages/welcome.wxml-->
+<view class='container2'>
+<view align-items='center'>
+  <text style="font-size:64rpx">{{profile.nickName}}</text>
+</view>
+  <image src='{{ profile.avatarUrl }}' mode='widthFix'></image>
+  <view class='container' style='height:25vh'>
+    <button open-type='getUserInfo' bindgetuserinfo='getProfile' class="button" plain='ture'>登录</button>
+    
+      <button bindtap="jumpTo" class="button" plain='ture'>进入小程序 
+       <!-- <navigator url='/Pages/index/index' open-type='redirect' hover-class='nav-hover' class='nav-default' open-type='switchTab'>进入小程序</navigator>   -->
+      </button>  
+      <button bindtap="tip" class="button" plain='ture'>是兄弟就来点我</button>
+  </view>
+</view>

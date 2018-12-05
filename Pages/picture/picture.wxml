@@ -1,0 +1,21 @@
+<!--Pages/picture/picture.wxml-->
+<!-- <text style="font-size:35rpx"> \n </text> -->
+<view wx:for='{{swiperImage}}' align-items='center'>
+  
+    <text style="font-size:35rpx;font-weight:bold;color:white">{{item.name}}</text>
+    <view class='view'>
+    <swiper class='swiper' indicator-dots='{{true}}' indicator-active-color='white' indicator-color='rgba(100,100,100,.5)' autoplay='ture' circular='ture' current='currentIndex'>
+      <swiper-item wx:for='{{item}}' class='center'>
+        <!-- <text style="font-size:25rpx"> \n </text>    -->
+        <image src='{{item.imagePath}}' mode='widthFix'></image>
+        <!-- 想做图片高度自适应，但是不会 -->
+        <!-- <text class='returnButton' wx:if='{{index>0}}' bindap='f0'>回到第一张</text> -->
+      </swiper-item>
+    </swiper>
+    </view>
+    <text style="font-size:25rpx"> \n </text>   
+  
+
+</view>
+
+<!-- 正方形图片缩放还没解决 -->

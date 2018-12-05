@@ -1,0 +1,19 @@
+/* Pages/about/about.wxss */
+
+
+text{
+  font-size: 28rpx;
+  color: #FFFFFF; 
+}
+
+.about-banner {
+  width:375rpx;
+  height:375rpx;
+  border-radius: 10%;
+  
+} 
+
+page{
+  background-color: black;
+}
+

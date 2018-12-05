@@ -1,0 +1,20 @@
+<!--Pages/index.wxml-->
+ <!-- <text style="font-size:35rpx"> \n </text> -->
+
+ 
+   <view class="article" wx:for='{{article}}' bindtap='f1'> 
+   
+    <navigator url="/Pages/detail/detail" hover-class="navigator-hover">
+    <image src='{{item.imagePath}}' class='article-image'></image>
+    <view class='article-detail'>
+      <text style="font-size:25rpx"> \n </text>
+      <text style="font-size:35rpx;font-weight:bold;">{{item.name}}</text>
+      <text style="color:#999 ">{{item.comment}}</text>
+      <text wx:if="{{item.isHighlyRecommoned}}" style="color:red;"
+justify-content='right' text-align='right' float='right'>强烈推荐</text>
+      <!-- 这个靠右对齐的“强烈推荐”也没做出来 -->
+      <text style="font-size:35rpx"> \n </text>
+      <!-- <<navigator url={{item.url}}>点我跳转至demo1页面</navigator>> -->
+    </view>
+    </navigator>
+  </view> 

@@ -1,0 +1,39 @@
+/* Pages/picture/picture.wxss */
+page{
+  background-color: black;
+}
+
+.swiper{
+  height:480rpx;
+  /* width:630rpx; */
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  position:relative;
+  
+}
+
+/* .swiperimg{
+  height:450rpx;
+  width:750rpx;
+  display: flex;
+  justify-content:center;
+
+} */
+
+
+ .center{
+  width: 630rpx;
+  display: flex;
+  justify-content: center;
+} 
+
+.returnButton{
+  color:#fff;
+  position:absolute;
+  /* right:0; */
+  top:0rpx;
+  border:1px solid white;
+  border-right:10;
+  border-radius: 10%;
+}

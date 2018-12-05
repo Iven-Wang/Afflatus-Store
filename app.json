@@ -1,0 +1,43 @@
+{
+  "pages": [
+    
+    
+    
+    "Pages/index/index",
+    "Pages/picture/picture",
+    "Pages/welcome/welcome",
+    "Pages/about/about",
+    "Pages/detail/detail"
+    
+  ],
+  "window": {
+    "navigationBarTitleText": "冇想法买手店",
+    "backgroundColor": "#000"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "文章",
+        "pagePath": "Pages/index/index",
+        "selectedIconPath": "images/icon/indexselected.png",
+        "iconPath": "images/icon/index.png"
+      },
+      {
+        "text": "摄影",
+        "pagePath": "Pages/picture/picture",
+        "selectedIconPath": "images/icon/pictureselected.png",
+        "iconPath": "images/icon/picture.png"
+      },
+      {
+        "text": "关于",
+        "pagePath": "Pages/about/about",
+        "iconPath": "images/icon/about.png",
+        "selectedIconPath": "images/icon/aboutselected.png"
+      }
+    ],
+    "color": "#666",
+    "selectedColor": "#eee",
+    "backgroundColor": "#000",
+    "borderStyle": "black"
+  }
+}

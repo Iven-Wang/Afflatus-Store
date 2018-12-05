@@ -1,0 +1,29 @@
+/* Pages/welcome.wxss */
+image{
+  width:150rpx;
+  border-radius:10%;
+}
+text{
+  font-size:48rpx;
+}
+.container2{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:space-around;
+  height:1000rpx;
+  
+}
+
+.nav-hover{
+  color:blue;
+}
+
+.button{
+  padding:0;
+  width:80vw;
+  height:7vh;
+  line-height:7vh;
+  border:1px solid #000;
+  border-radius: 0px;
+}

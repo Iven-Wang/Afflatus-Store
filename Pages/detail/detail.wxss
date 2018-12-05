@@ -1,0 +1,9 @@
+/* Pages/detail/detail.wxss */
+page{
+  background-color: black;
+}
+
+text{
+  font-size: 28rpx;
+  color: #FFFFFF; 
+}

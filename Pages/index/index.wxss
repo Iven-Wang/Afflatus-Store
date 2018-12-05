@@ -1,0 +1,33 @@
+/* Pages/index.wxss */
+page{
+  background-color: black;
+}
+
+text{
+  font-size: 28rpx;
+  color: #FFFFFF; 
+} 
+
+ .article {
+  background-color: "#000";
+  display:flex;
+  flex-direction:column; 
+  justify-content: space-around;
+  align-items:center;
+  
+}
+
+.article-detail {
+  background-color: "#000";
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  width:630rpx;
+  
+  
+}
+.article-image{
+  height:350rpx;
+  width:630rpx;
+}
+
